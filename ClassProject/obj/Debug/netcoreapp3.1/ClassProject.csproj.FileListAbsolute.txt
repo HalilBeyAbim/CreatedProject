@@ -1,0 +1,14 @@
+C:\Users\ACER\Desktop\EvTapsiriqlari\ClassProject\ClassProject\bin\Debug\netcoreapp3.1\ClassProject.exe
+C:\Users\ACER\Desktop\EvTapsiriqlari\ClassProject\ClassProject\bin\Debug\netcoreapp3.1\ClassProject.deps.json
+C:\Users\ACER\Desktop\EvTapsiriqlari\ClassProject\ClassProject\bin\Debug\netcoreapp3.1\ClassProject.runtimeconfig.json
+C:\Users\ACER\Desktop\EvTapsiriqlari\ClassProject\ClassProject\bin\Debug\netcoreapp3.1\ClassProject.runtimeconfig.dev.json
+C:\Users\ACER\Desktop\EvTapsiriqlari\ClassProject\ClassProject\bin\Debug\netcoreapp3.1\ClassProject.dll
+C:\Users\ACER\Desktop\EvTapsiriqlari\ClassProject\ClassProject\bin\Debug\netcoreapp3.1\ClassProject.pdb
+C:\Users\ACER\Desktop\EvTapsiriqlari\ClassProject\ClassProject\obj\Debug\netcoreapp3.1\ClassProject.csproj.AssemblyReference.cache
+C:\Users\ACER\Desktop\EvTapsiriqlari\ClassProject\ClassProject\obj\Debug\netcoreapp3.1\ClassProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Desktop\EvTapsiriqlari\ClassProject\ClassProject\obj\Debug\netcoreapp3.1\ClassProject.AssemblyInfoInputs.cache
+C:\Users\ACER\Desktop\EvTapsiriqlari\ClassProject\ClassProject\obj\Debug\netcoreapp3.1\ClassProject.AssemblyInfo.cs
+C:\Users\ACER\Desktop\EvTapsiriqlari\ClassProject\ClassProject\obj\Debug\netcoreapp3.1\ClassProject.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\EvTapsiriqlari\ClassProject\ClassProject\obj\Debug\netcoreapp3.1\ClassProject.dll
+C:\Users\ACER\Desktop\EvTapsiriqlari\ClassProject\ClassProject\obj\Debug\netcoreapp3.1\ClassProject.pdb
+C:\Users\ACER\Desktop\EvTapsiriqlari\ClassProject\ClassProject\obj\Debug\netcoreapp3.1\ClassProject.genruntimeconfig.cache
