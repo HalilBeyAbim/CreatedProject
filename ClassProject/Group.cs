@@ -13,6 +13,12 @@ namespace ClassProject
         public byte Limit { get { return _Limit; } }
         public List<Student> Students;
         public static int count = 100;
+
+        public Group()
+        {
+
+        }
+        
         public Group( Categories category, bool isonline)
         {
             if (isonline )
@@ -34,7 +40,7 @@ namespace ClassProject
                 case Categories.Design:
                     No = $"D" + count;
                     break;
-                case Categories.SystemaAdministration:
+                case Categories.SystemAdministration:
                     No = $"SA" + count;
                     break;
                 case Categories.Marketing:
@@ -45,6 +51,7 @@ namespace ClassProject
             }
             Category = category;
             count++;
+          
         }
     }
 

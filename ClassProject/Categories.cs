@@ -8,7 +8,7 @@ namespace ClassProject
     {
         Programming=1,
         Design,
-        SystemaAdministration,
+        SystemAdministration,
         Marketing
     }
 }
