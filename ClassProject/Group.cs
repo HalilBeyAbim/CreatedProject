@@ -12,7 +12,7 @@ namespace ClassProject
         byte _Limit;
         public byte Limit { get { return _Limit; } }
         public List<Student> Students;
-        public static int count = 100;
+        public static double count = 100;
 
         public Group()
         {
@@ -21,6 +21,8 @@ namespace ClassProject
         
         public Group( Categories category, bool isonline)
         {
+           
+
             if (isonline )
             {
                 _Limit = 15;
@@ -30,7 +32,7 @@ namespace ClassProject
                 _Limit = 10;
             }
             Students = new List<Student>();
-
+            
 
             switch (category)
             {
@@ -50,10 +52,17 @@ namespace ClassProject
                     break;
             }
             Category = category;
+            Isonline = isonline;
             count++;
-          
+            
+        }
+
+
+        public override string ToString()
+        {
+            return $"{No} {Category} {Isonline}";
         }
     }
 
-
+    
 }

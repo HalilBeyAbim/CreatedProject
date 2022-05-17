@@ -4,12 +4,12 @@ using System.Text;
 
 namespace ClassProject
 {
-    static class CourseManagment
+     class CourseManagment
     {
-        public static List<Group> groups = new List<Group>();
-
-        public static Group GroupInput()
+        public  List<Group> groups = new List<Group>();
+        public Group GroupInput()
         {
+
             try
             {
                 Categories category;
@@ -44,7 +44,11 @@ namespace ClassProject
                 if (isonInt == 1)
                 {
                     Isonline = true;
-                    Console.WriteLine("Added Online Group");
+                    Group group = new Group(category, Isonline);
+                    groups.Add(group);
+                    Console.WriteLine($"{category.ToString() + Group.count} Added Online Group");
+                    Group.count--;
+
                 }
                 else
                 {
@@ -54,7 +58,11 @@ namespace ClassProject
 
                 if (!Isonline == true)
                 {
-                    Console.WriteLine("Added Offline Group ");
+                    Group group = new Group(category, Isonline);
+                    groups.Add(group);
+                    Console.WriteLine($"{category.ToString() + Group.count} Added Offline Group ");
+                    Group.count--;
+
 
                 }
                 else
@@ -63,7 +71,6 @@ namespace ClassProject
 
                 }
                 return new Group(category, Isonline);
-
 
 
             }
@@ -75,36 +82,33 @@ namespace ClassProject
             }
 
         }
-        public static void ShowGroupList()
+
+        public void ShowGroupList()
         {
-           
-            foreach (var item in groups)
+            foreach (Group group in groups)
             {
-                Console.WriteLine($"Group #{item.No}");
+                Console.WriteLine(group.ToString());
 
             }
 
         }
-            //public void EditGroup()
-            //{
+        public void EditGroup()
+        {
+            if (true) 
+            {
 
-            //}
-            //public void ShowGroupStudentList()
-            //{
+            }
+        }
+        public void FindGroup(string NewNumber)
+        {
+            foreach (Group group in groups)
+            {
+                if (group.No == NewNumber)
+                {
+                    Console.WriteLine(group);
+                }
 
-            //}
-            //void ShowAllStudentList()
-            //{
-
-            //}
-            //void CreateStudent()
-            //{
-
-            //}
-            //void DeletedStudent()
-            //{
-
-            //}
-
+            }
+        }
     }
 }

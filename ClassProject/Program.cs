@@ -4,11 +4,14 @@ namespace ClassProject
 {
     class Program
     {
+        private static int selection;
+
         static void Main(string[] args)
         {
+            CourseManagment courseManagment = new CourseManagment();
             while (true)
             {
-                try
+                do
                 {
                     Console.WriteLine("\nMenu");
                     Console.WriteLine("1: Created Group");
@@ -25,18 +28,20 @@ namespace ClassProject
                     switch (MenuIndex)
                     {
                         case 1:
-                            CourseManagment.GroupInput();
+                            courseManagment.GroupInput();
                             break;
                         case 2:
-                            CourseManagment.ShowGroupList();
+                            courseManagment.ShowGroupList();
                             break;
-                               
+                        //case 3:
+                        //    courseManagment.EditGroup();
+                        //    break;
+
                     }
                 }
-                catch (Exception)
+                while (selection != 0);
                 {
-                    Console.WriteLine("Exeption ");
-                    throw;
+                   
                 }
 
             }
